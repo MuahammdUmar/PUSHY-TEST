@@ -32,4 +32,4 @@ jobs:
 
     #run: surge ./build hungry-lumber.surge.sh --token ${{secrets.PUSHNOTIFICATION}}
     - name: Run Surge
-      run: surge ./build sour-police.surge.sh --token ${{secrets.PUSHNOTIFICATION}}
+      run: surge ./build dramatic-airplane-pushy.surge.sh --token ${{secrets.PUSHNOTIFICATION}}
