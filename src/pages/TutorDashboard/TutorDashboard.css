@@ -1,0 +1,65 @@
+.hello {
+  color: white !important;
+  font-size: 12px;
+  position: relative;
+  right: 35px;
+}
+.firstcard {
+  position: relative;
+  /* border: 2px solid red; */
+  right: 46px;
+  bottom: 35px;
+  width: 90px;
+  max-height: 50px;
+  padding-top: 100px;
+}
+
+.secondcard {
+  position: relative;
+  /* border: 2px solid red; */
+  left: 45px;
+  bottom: 139px;
+  width: 90px;
+  max-height: 50px;
+
+  padding-top: 100px;
+}
+
+.secondcardinside {
+  position: relative;
+  font-size: 17px;
+  bottom: 90px;
+}
+
+.tutornav {
+  background-color: #478ece;
+}
+
+.calendarRow {
+  border: 2px solid blue;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* .offset-9{
+    margin-left: 10px;
+} */
+
+.navbar-icon {
+  /* font-size: 38px; */
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.course_link {
+  text-decoration: none;
+  color: black;
+}
+.course_link:hover {
+  color: black;
+}
+.headerLink {
+  text-decoration: none;
+  list-style-type: none;
+}

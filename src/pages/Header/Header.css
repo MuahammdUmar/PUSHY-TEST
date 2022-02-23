@@ -1,0 +1,21 @@
+.navbar-icon {
+  /* font-size: 38px; */
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.headerLink {
+  text-decoration: none;
+  list-style-type: none;
+}
+.white-space-text {
+  white-space: nowrap;
+}
+.dashboardPicture {
+  width: 30px;
+  height: 30px !important;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 2px 5px #00000029;
+  border-radius: 50%;
+}

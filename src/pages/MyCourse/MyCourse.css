@@ -1,0 +1,50 @@
+.CourseCard {
+  min-height: 280px;
+  width: 310px;
+  background-color: white;
+  border-radius: 0%;
+}
+.doted {
+  font-size: 20px;
+}
+.reading {
+  min-height: 50px;
+  margin-left: -10px;
+}
+.hello {
+  margin-top: 10px;
+}
+.nave {
+  background-color: #478ece;
+}
+.toper {
+  margin-top: 20px;
+}
+.dp_image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+.professor {
+  margin-left: 32px;
+  margin-top: -20px;
+}
+.maintain {
+  margin-left: 15px;
+}
+.mono {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.SetBorder {
+  width: 15px;
+  height: 25px;
+  margin-left: 255px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}

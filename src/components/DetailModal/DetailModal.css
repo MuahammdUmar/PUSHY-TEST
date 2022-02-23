@@ -1,0 +1,33 @@
+.eventRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.image {
+  flex: 1 1 20%;
+}
+.content {
+  flex: 1 1 60%;
+}
+
+.eventField {
+  align-items: center !important;
+}
+
+.eventField h6 {
+  display: inline-block;
+}
+
+.eventField p {
+  display: inline-block;
+}
+
+.eventText {
+  padding: 20px 10px;
+}
+
+.class--join-button {
+  text-align: right;
+}

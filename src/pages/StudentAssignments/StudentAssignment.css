@@ -1,0 +1,25 @@
+.assignment--title{
+  background-color: #478ece;
+  padding: 1.5rem 2rem;
+}
+.assignment--listing{
+  padding: 2rem 0;
+}
+.assignment--listing-cards{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.assignment--listing-cards .list-group-item{
+  border: none;
+  padding: 0.25rem 0;
+}
+.assignment--listing-cards .list-group-item:first-child{
+  border: none;
+}
+.list-group-item h6{
+  display: inline-block;
+}
+.card-body hr {
+  width: 100%;
+}

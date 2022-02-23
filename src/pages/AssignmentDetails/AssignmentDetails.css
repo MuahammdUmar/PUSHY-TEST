@@ -1,0 +1,75 @@
+.Assign_header {
+  margin-top: 10px;
+  color: white;
+}
+.Assign_nave {
+  background-color: rgb(128, 58, 219);
+}
+.Assign_title {
+  border: 1px solid rgb(128, 58, 219);
+}
+.Assign_heading {
+  color: rgb(128, 58, 219);
+}
+.T_comments {
+  border: 1px solid rgb(128, 58, 219);
+  color: rgb(128, 58, 219);
+}
+hr.Assign_hr {
+  position: relative;
+  width: 650px;
+  height: 1px !important;
+}
+.list_info {
+  padding: 0;
+  list-style: none;
+}
+.right_list {
+  margin-left: 70px;
+  padding: 0;
+  list-style: none;
+}
+.butt_list {
+  padding: 0;
+  list-style: none;
+}
+.Tut_Head {
+  margin-top: 40px;
+  color: rgb(128, 58, 219);
+}
+.butt_list li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.qury_title {
+  width: 100%;
+  border: 1px solid rgb(128, 58, 219);
+}
+.first_qury {
+  /* margin-left: 20px; */
+  background-color: #478eca;
+  color: white;
+}
+.sec_row {
+  width: 100%;
+  border: 1px solid rgb(128, 58, 219);
+  background-color: #478eca;
+  color: white;
+}
+.Assign_but {
+  background-color: #478eca;
+  color: white;
+  border-radius: 0;
+}
+.Ask_but {
+  background-color: rgb(128, 58, 219);
+  color: white;
+  border-radius: 0;
+}
+.list_color {
+  color: #478eca;
+}
+/* .list_info li {
+    padding: 0 15px;
+    margin: 0;
+} */

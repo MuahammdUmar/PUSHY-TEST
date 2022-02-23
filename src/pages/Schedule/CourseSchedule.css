@@ -1,0 +1,52 @@
+.course-calendar .fc-view-harness {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.course-calendar .fc-daygrid-event {
+  background-color: transparent;
+  border: 0;
+}
+
+.course-calendar .fc-event {
+  font-family: "Roboto", sans-serif;
+  background-color: #3788d9;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: #fff;
+  margin: 5px 0;
+  line-height: normal;
+}
+
+.course-calendar .fc-event-past > div:first-child {
+  margin-top: 0;
+}
+
+.course-calendar .fc-event-past > div:last-child {
+  margin-top: 0;
+}
+
+.fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fc .fc-day-other .fc-daygrid-day-top .fc-daygrid-day-number {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fc-daygrid-day-top .fc-daygrid-day-number {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
