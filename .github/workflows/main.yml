@@ -19,13 +19,15 @@ jobs:
         node-version: [16.x]
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
+    - name: Install NodeJS
+      uses: actions/setup-node@v2-beta 
+      with: 
+        node-version: 14.16.1
+
+    - name: install react and dependencies 
+      run:  npm install 
+    - name: build the project
+      run:  CI="" npm run build
     
     - name: Install Surge
       run: npm install --global surge 
@@ -33,3 +35,8 @@ jobs:
     #run: surge ./build hungry-lumber.surge.sh --token ${{secrets.PUSHNOTIFICATION}}
     - name: Run Surge
       run: surge ./build dramatic-airplane-pushy.surge.sh --token ${{secrets.PUSHNOTIFICATION}}
+
+      name: Install NodeJS
+      uses: actions/setup-node@v2-beta 
+      with: 
+        node-version: 14.16.1
